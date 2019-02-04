@@ -6,11 +6,10 @@
 // @match        *://*/mod/quiz/review.php*
 // @grant        none
 // @namespace    https://github.com/Alex3434/RemoveMoodleAnswers
-// @version      0.2
+// @version      0.3
 // @grant        none
 // @updateURL	 https://github.com/Alex3434/RemoveMoodleAnswers/raw/master/Remove%20Moodle%20Answers.user.js
 // ==/UserScript==
-
 
 (function() {
     let correctElements = document.getElementsByClassName('icon fa fa-check text-success fa-fw');
@@ -33,4 +32,12 @@
     for (let check of checkButtons) {
         check.removeAttribute("checked");
     }
+
+    let correctText = document.getElementsByClassName("outcome clearfix");
+    for (let element of correctText) {
+        element.style.color = "#faf2cc";
+        element.addEventListener('mouseover',function(){ element.style.color = "#8a6d3b";});
+        element.addEventListener('mouseout', function(){ element.style.color = "#faf2cc";});
+    }
+
 })();
