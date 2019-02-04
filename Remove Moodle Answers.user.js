@@ -8,7 +8,7 @@
 // @namespace    https://github.com/Alex3434/RemoveMoodleAnswers
 // @version      0.1
 // @grant        none
-// @updateURL	 https://github.com/Alex3434/RemoveMoodleAnswers/raw/master/dist/RemoveMoodleAnswes.js
+// @updateURL	 https://github.com/Alex3434/RemoveMoodleAnswers/raw/master/Remove%20Moodle%20Answers.user.js
 // ==/UserScript==
 
 
