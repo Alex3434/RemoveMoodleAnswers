@@ -3,7 +3,7 @@
 // @author		 Alexander Jeuk
 // @description	 Deletes correct and incorrect answers from moodle test reviews
 // @license      GPL-3.0; http://www.gnu.org/licenses/gpl-3.0.txt
-// @include		 /^https?://moodle2.tu-ilmenau.de/mod/quiz/review.php*
+// @include		 /^https?://*/mod/quiz/review.php*
 // @grant        none
 // @namespace    https://github.com/Alex3434/RemoveMoodleAnswers
 // @version      0.1
