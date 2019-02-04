@@ -35,9 +35,9 @@
 
     let correctText = document.getElementsByClassName("outcome clearfix");
     for (let element of correctText) {
-        element.style.color = "#faf2cc";
+        element.style.color = "#fcf8e3";
         element.addEventListener('mouseover',function(){ element.style.color = "#8a6d3b";});
-        element.addEventListener('mouseout', function(){ element.style.color = "#faf2cc";});
+        element.addEventListener('mouseout', function(){ element.style.color = "#fcf8e3";});
     }
 
 })();
